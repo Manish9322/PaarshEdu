@@ -12,14 +12,14 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/logo/logo.png"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="/images/logo/logo.svg"
+                    src="/images/logo/logo.png"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
@@ -27,12 +27,11 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                Paarsh Infotech Pvt Ltd provides more than website design and Software development.
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="/"
+                    href="https://www.facebook.com/Paarsh.Infotech"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -52,7 +51,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://x.com/paarshinfotech"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -73,8 +72,33 @@ const Footer = () => {
                       />
                     </svg>
                   </a>
+
+<a
+  href="https://www.instagram.com/paarsh_infotech/"
+  aria-label="social-link"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+>
+  <svg
+    width="18"
+    height="18"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M7 2C4.2 2 2 4.2 2 7V17C2 19.8 4.2 22 7 22H17C19.8 22 22 19.8 22 17V7C22 4.2 19.8 2 17 2H7ZM4 7C4 5.3 5.3 4 7 4H17C18.7 4 20 5.3 20 7V17C20 18.7 18.7 20 17 20H7C5.3 20 4 18.7 4 17V7ZM12 7C9.2 7 7 9.2 7 12C7 14.8 9.2 17 12 17C14.8 17 17 14.8 17 12C17 9.2 14.8 7 12 7ZM9 12C9 10.3 10.3 9 12 9C13.7 9 15 10.3 15 12C15 13.7 13.7 15 12 15C10.3 15 9 13.7 9 12ZM17.5 6.5C17.5 6.8 17.3 7 17 7C16.7 7 16.5 6.8 16.5 6.5C16.5 6.2 16.7 6 17 6C17.3 6 17.5 6.2 17.5 6.5Z"
+      fill="currentColor"
+    />
+  </svg>
+</a>
+
+
                   <a
-                    href="/"
+                    href="https://www.youtube.com/@paarshinfotech"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -90,7 +114,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/company/paarsh-infotech-pvt-ltd/about/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -120,7 +144,7 @@ const Footer = () => {
                       href="/blog"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
+                      Home
                     </Link>
                   </li>
                   <li>
@@ -128,7 +152,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      About Us
                     </Link>
                   </li>
                   <li>
@@ -136,7 +160,15 @@ const Footer = () => {
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      Services
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/about"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Conatct
                     </Link>
                   </li>
                 </ul>
@@ -146,7 +178,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  Services
                 </h2>
                 <ul>
                   <li>
@@ -154,7 +186,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                     Digital Marketing
                     </Link>
                   </li>
                   <li>
@@ -162,7 +194,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Privacy Policy
+                      Web Development
                     </Link>
                   </li>
                   <li>
@@ -170,7 +202,23 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Refund Policy
+                      Software Development
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      E-Commerce Development
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Android App Development
                     </Link>
                   </li>
                 </ul>
@@ -180,32 +228,88 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  Get In Touch
                 </h2>
                 <ul>
                   <li>
-                    <Link
-                      href="/contact"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Open Support Ticket
-                    </Link>
+                    <div className="mb-4 flex items-center space-x-3">
+                      {/* Mail Icon */}
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="text-gray-500"
+                      >
+                        <path
+                          d="M3 4H21C22.1 4 23 4.9 23 6V18C23 19.1 22.1 20 21 20H3C1.9 20 1 19.1 1 18V6C1 4.9 1.9 4 3 4Z"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M3 6L12 13L21 6"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+
+                      {/* Email Address */}
+                      <a
+                        href="mailto:your-email@example.com"
+                        className="text-body-color transition duration-300 hover:text-blue-700"
+                      >
+                       info@paarshinfotech.com
+                      </a>
+                    </div>
                   </li>
                   <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Terms of Use
-                    </Link>
+                    <div className="mb-4 flex items-center space-x-3">
+                      {/*phone */}
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="gray"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M6.6 10.8C8 13.7 10.3 16 13.2 17.4L15.4 15.2C15.7 14.9 16.1 14.8 16.5 14.9L20.8 15.9C21.4 16.1 21.8 16.6 21.8 17.2V21C21.8 21.6 21.3 22.1 20.7 22C15.4 21.4 10.7 18.7 7.3 15.3C3.9 11.9 1.2 7.2 0.6 2C0.5 1.4 1 0.9 1.6 0.9H5.4C6 0.9 6.5 1.3 6.6 1.9L7.6 6.2C7.7 6.6 7.6 7 7.3 7.3L5.1 9.5C5.4 9.9 6 10.4 6.6 10.8Z" />
+                      </svg>
+
+                      {/* phone*/}
+                      <a
+                        href="mailto:your-email@example.com"
+                        className="text-body-color transition duration-300 hover:text-blue-700"
+                      >
+                        +91 98609 88343
+                      </a>
+                    </div>
                   </li>
                   <li>
-                    <Link
-                      href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      About
-                    </Link>
+                    <div className="mb-4 flex space-x-2">
+                      {/* address */}
+                      <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 24 24"
+                        fill="gray"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M12 2C8.1 2 5 5.1 5 9C5 13.2 9.9 19.3 11.6 21.2C11.8 21.4 12.2 21.4 12.4 21.2C14.1 19.3 19 13.2 19 9C19 5.1 15.9 2 12 2ZM12 11C10.3 11 9 9.7 9 8C9 6.3 10.3 5 12 5C13.7 5 15 6.3 15 8C15 9.7 13.7 11 12 11Z" />
+                      </svg>
+
+                      {/* Address */}
+                      <a
+                        href="mailto:your-email@example.com"
+                        className="text-body-color transition duration-300 hover:text-blue-700"
+                      >
+                     Paarsh Infotech Pvt Ltd. Mumbai Naka, Nashik - 422001
+                      </a>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -215,23 +319,25 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by{" "}
+              {/* Template by */}
+              {" "}
               <a
                 href="http://uideck.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                UIdeck
+                © 2024-25 Paarsh Edu. All rights reserved.
               </a>{" "}
-              and{" "}
+              {/* and */}
+              {" "}
               <a
                 href="https://nextjstemplates.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                Next.js Templates
+                {/* Next.js Templates */}
               </a>
             </p>
           </div>
