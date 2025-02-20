@@ -3,42 +3,42 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "AI Revolutionizing Everyday Life and Work",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "AI enhances automation, healthcare, and productivity, making daily tasks smarter and more efficient.",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Samuyl Joshi",
-      image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      name: "Rutik Ahire",
+      image: "/images/blog/author-02.png",
+      designation: "Sr. Data Analyst",
     },
     tags: ["creative"],
     publishDate: "2025",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Quantum Computing : The Future of Tech",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Quantum computing promises ultra-fast processing, revolutionizing cryptography, AI, and complex problem-solving.",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Musharof Chy",
-      image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      name: "Rupali Gaikwad",
+      image: "/images/blog/author-01.png",
+      designation: "QCR",
     },
     tags: ["computer"],
     publishDate: "2025",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Blockchain Beyond Cryptocurrency",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Blockchain secures transactions, improves transparency, and finds applications in finance, healthcare, and logistics.",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Lethium Deo",
-      image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      name: "Siddhi Shinde",
+      image: "/images/blog/author-01.png",
+      designation: "Sr. Blockchain Engineer",
     },
     tags: ["design"],
     publishDate: "2025",
