@@ -12,6 +12,8 @@ import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 
+import StrategiesSection from "@/components/Strategies";
+
 export const metadata: Metadata = {
   title: "Paarsh Edu : Solution for Better Learning.",
   description: "This is a Home for New Learners.",
@@ -30,9 +32,11 @@ export default function Home() {
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
+      <StrategiesSection/>
       {/* <Pricing /> */}
       <Blog />
       <Contact />
+
     </>
   );
 }

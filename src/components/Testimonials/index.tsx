@@ -6,27 +6,27 @@ const testimonialData: Testimonial[] = [
   {
     id: 1,
     name: "Harshal Mutadak",
-    designation: "Founder @Artify Inc.",
+    designation: "Software Engineering Intern",
     content:
-      "Our users are amazed! It's seamless, modern, and completely hassle-free—perfect for creating an engaging learning experience.",
+      "This platform made learning so easy! The hands-on approach helped me understand concepts better and apply them effectively.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Ashwini Bhavare",
+    designation: "Junior Web Developer",
     content:
-      "Our users love it! Simple, sleek, and completely focused—perfect for fostering a thriving community.",
+      "A great place to enhance skills! The structured courses and real-world projects helped me gain confidence in my abilities.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Vrutik Patil",
+    designation: "Graduate Trainee",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The best learning experience! The well-organized content and practical exercises made learning enjoyable and effective.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our Students Say"
+          paragraph="Our students share their success stories, highlighting how our platform empowers them with knowledge, hands-on experience, and career growth opportunities."
           center
         />
 
