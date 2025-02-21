@@ -27,7 +27,8 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                Paarsh Infotech Pvt Ltd provides more than website design and Software development.
+                  Paarsh Infotech Pvt Ltd provides more than website design and
+                  Software development.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -73,29 +74,28 @@ const Footer = () => {
                     </svg>
                   </a>
 
-<a
-  href="https://www.instagram.com/paarsh_infotech/"
-  aria-label="social-link"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
->
-  <svg
-    width="18"
-    height="18"
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M7 2C4.2 2 2 4.2 2 7V17C2 19.8 4.2 22 7 22H17C19.8 22 22 19.8 22 17V7C22 4.2 19.8 2 17 2H7ZM4 7C4 5.3 5.3 4 7 4H17C18.7 4 20 5.3 20 7V17C20 18.7 18.7 20 17 20H7C5.3 20 4 18.7 4 17V7ZM12 7C9.2 7 7 9.2 7 12C7 14.8 9.2 17 12 17C14.8 17 17 14.8 17 12C17 9.2 14.8 7 12 7ZM9 12C9 10.3 10.3 9 12 9C13.7 9 15 10.3 15 12C15 13.7 13.7 15 12 15C10.3 15 9 13.7 9 12ZM17.5 6.5C17.5 6.8 17.3 7 17 7C16.7 7 16.5 6.8 16.5 6.5C16.5 6.2 16.7 6 17 6C17.3 6 17.5 6.2 17.5 6.5Z"
-      fill="currentColor"
-    />
-  </svg>
-</a>
-
+                  <a
+                    href="https://www.instagram.com/paarsh_infotech/"
+                    aria-label="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M7 2C4.2 2 2 4.2 2 7V17C2 19.8 4.2 22 7 22H17C19.8 22 22 19.8 22 17V7C22 4.2 19.8 2 17 2H7ZM4 7C4 5.3 5.3 4 7 4H17C18.7 4 20 5.3 20 7V17C20 18.7 18.7 20 17 20H7C5.3 20 4 18.7 4 17V7ZM12 7C9.2 7 7 9.2 7 12C7 14.8 9.2 17 12 17C14.8 17 17 14.8 17 12C17 9.2 14.8 7 12 7ZM9 12C9 10.3 10.3 9 12 9C13.7 9 15 10.3 15 12C15 13.7 13.7 15 12 15C10.3 15 9 13.7 9 12ZM17.5 6.5C17.5 6.8 17.3 7 17 7C16.7 7 16.5 6.8 16.5 6.5C16.5 6.2 16.7 6 17 6C17.3 6 17.5 6.2 17.5 6.5Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
 
                   <a
                     href="https://www.youtube.com/@paarshinfotech"
@@ -178,7 +178,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Services
+                  Courses
                 </h2>
                 <ul>
                   <li>
@@ -186,7 +186,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                     Digital Marketing
+                      FullStack Java Development
                     </Link>
                   </li>
                   <li>
@@ -194,7 +194,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Web Development
+                      FullStack Python Devlopment
                     </Link>
                   </li>
                   <li>
@@ -202,7 +202,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Software Development
+                      Mean Stack
                     </Link>
                   </li>
                   <li>
@@ -210,7 +210,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      E-Commerce Development
+                      API Development
                     </Link>
                   </li>
                   <li>
@@ -263,7 +263,7 @@ const Footer = () => {
                         href="mailto:your-email@example.com"
                         className="text-body-color transition duration-300 hover:text-blue-700"
                       >
-                       info@paarshinfotech.com
+                        info@paarshinfotech.com
                       </a>
                     </div>
                   </li>
@@ -307,7 +307,7 @@ const Footer = () => {
                         href="mailto:your-email@example.com"
                         className="text-body-color transition duration-300 hover:text-blue-700"
                       >
-                     Paarsh Infotech Pvt Ltd. Mumbai Naka, Nashik - 422001
+                        Paarsh Infotech Pvt Ltd. Mumbai Naka, Nashik - 422001
                       </a>
                     </div>
                   </li>
@@ -317,30 +317,28 @@ const Footer = () => {
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
-          <div className="py-8">
-            <p className="text-center text-base text-body-color dark:text-white">
-              {/* Template by */}
-              {" "}
-              <a
-                href="http://uideck.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                © 2024-25 Paarsh Edu. All rights reserved.
-              </a>{" "}
-              {/* and */}
-              {" "}
-              <a
-                href="https://nextjstemplates.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                {/* Next.js Templates */}
-              </a>
-            </p>
-          </div>
+          <div className="py-8 flex justify-between items-center">
+  {/* Left Side - Copyright */}
+  <p className="text-base text-body-color dark:text-white">
+    &copy; 2024-25 Paarsh Edu. All rights reserved.
+  </p>
+  
+  {/* Right Side - Terms & Privacy Policy */}
+  <div className="flex space-x-4">
+    <a
+      href="/terms"
+      className="text-base text-body-color dark:text-white hover:text-primary"
+    >
+      Terms & Conditions
+    </a>
+    <a
+      href="/privacy"
+      className="text-base text-body-color dark:text-white hover:text-primary"
+    >
+      Privacy Policy
+    </a>
+  </div>
+</div>
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
           <svg

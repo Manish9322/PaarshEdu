@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Harshal Mutadak",
+    name: "Dhiraj Bhirud",
     designation: "Founder @Artify Inc.",
     content:
-      "Our users are amazed! It's seamless, modern, and completely hassle-free—perfect for creating an engaging learning experience.",
+      " Paarsh infotech , it gives me such an good experience and helps me to improve my knowledge, It gives me opportunity to take decision by myself.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
+    name: "Mangesh Dound",
     designation: "Founder @UIdeck",
     content:
-      "Our users love it! Simple, sleek, and completely focused—perfect for fostering a thriving community.",
+      "I have never worked a part-time job with such intensity and dedication before.My internship was such a valuable experience and I learned so much!I am very grateful for the opportunity",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
+    name: "Dharmi Barot",
     designation: "Founder @Lineicons",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "A positive company culture that values innovation, teamwork, and open communication can help employees feel engaged and motivated and The work environment is also better",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
