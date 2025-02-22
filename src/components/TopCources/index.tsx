@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import CourseCard from "./CourseCard"
+import { Button } from "../ui/button"
 
 const initialCourses = [
   { id: 1, title: "Introduction to React", instructor: "Jane Doe", duration: "8 weeks", level: "Beginner" , imageUrl:"/images/brands/next.jpg" },
@@ -51,7 +52,10 @@ export default function IntervalCarousel() {
 
   return (
     <div className=" mx-auto">
-      <h2 className="text-3xl font-bold text-center my-6">Top Rated Courses</h2>
+      <div className="flex justify-center flex-col items-center ">
+      <h2 className="text-4xl font-bold text-center my-6">Top Rated <span className="text-blue-600">Courses</span></h2>
+      {/* <Button className="text-xl font-bold text-center rounded ml-[55rem] mb-6">View All</Button> */}
+      </div>
       <div
         className="overflow-hidden mx-auto"
         style={{ width: `${containerWidth}px` }}

@@ -12,13 +12,13 @@ interface CourseCardProps {
 
 export default function CourseCard({ title, instructor, duration, level, imageUrl }: CourseCardProps) {
   return (
-    <Card className="h-full dark:bg-gray-800 flex flex-col">
+    <Card className="h-full w-[95%] dark:bg-gray-800 flex flex-col">
       <Image 
         src={imageUrl} 
         alt={title} 
         width={100} 
         height={150} 
-        className="w-full h-56 object-cover rounded-t-md"
+        className="w-full h-52 object-cover rounded-t-md"
       />
       <CardHeader className="pb-2">
         <CardTitle className="text-lg line-clamp-2">{title}</CardTitle>
