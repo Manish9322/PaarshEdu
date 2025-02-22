@@ -4,14 +4,14 @@ import { useState, useEffect } from "react"
 import CourseCard from "./CourseCard"
 
 const initialCourses = [
-  { id: 1, title: "Introduction to React", instructor: "Jane Doe", duration: "8 weeks", level: "Beginner" },
-  { id: 2, title: "Advanced JavaScript", instructor: "John Smith", duration: "10 weeks", level: "Intermediate" },
-  { id: 3, title: "UI/UX Design Fundamentals", instructor: "Alice Johnson", duration: "6 weeks", level: "Beginner" },
-  { id: 4, title: "Node.js Backend Development", instructor: "Bob Wilson", duration: "12 weeks", level: "Advanced" },
-  { id: 5, title: "Python for Data Science", instructor: "Eva Brown", duration: "9 weeks", level: "Intermediate" },
-  { id: 6, title: "Mobile App Development with React Native", instructor: "Chris Lee", duration: "11 weeks", level: "Intermediate" },
-  { id: 7, title: "Machine Learning Basics", instructor: "David Wang", duration: "10 weeks", level: "Intermediate" },
-  { id: 8, title: "Cybersecurity Fundamentals", instructor: "Sarah Connor", duration: "8 weeks", level: "Beginner" },
+  { id: 1, title: "Introduction to React", instructor: "Jane Doe", duration: "8 weeks", level: "Beginner" , imageUrl:"/images/brands/next.jpg" },
+  { id: 2, title: "Advanced JavaScript", instructor: "John Smith", duration: "10 weeks", level: "Intermediate", imageUrl:"/images/brands/next.jpg" },
+  { id: 3, title: "UI/UX Design Fundamentals", instructor: "Alice Johnson", duration: "6 weeks", level: "Beginner", imageUrl:"/images/brands/next.jpg" },
+  { id: 4, title: "Node.js Backend Development", instructor: "Bob Wilson", duration: "12 weeks", level: "Advanced", imageUrl:"/images/brands/next.jpg" },
+  { id: 5, title: "Python for Data Science", instructor: "Eva Brown", duration: "9 weeks", level: "Intermediate", imageUrl:"/images/brands/next.jpg" },
+  { id: 6, title: "Mobile App Development with React Native", instructor: "Chris Lee", duration: "11 weeks", level: "Intermediate", imageUrl:"/images/brands/next.jpg" },
+  { id: 7, title: "Machine Learning Basics", instructor: "David Wang", duration: "10 weeks", level: "Intermediate", imageUrl:"/images/brands/next.jpg" },
+  { id: 8, title: "Cybersecurity Fundamentals", instructor: "Sarah Connor", duration: "8 weeks", level: "Beginner", imageUrl:"/images/brands/next.jpg" },
 ]
 
 const CARD_WIDTH = 350           // Each card's width in pixels
@@ -50,7 +50,7 @@ export default function IntervalCarousel() {
   const slideOffset = currentIndex * (CARD_WIDTH + CARD_GAP)
 
   return (
-    <div className="bg-white mx-auto">
+    <div className=" mx-auto">
       <h2 className="text-3xl font-bold text-center my-6">Top Rated Courses</h2>
       <div
         className="overflow-hidden mx-auto"

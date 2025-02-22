@@ -324,7 +324,7 @@ const Footer = () => {
   </p>
   
   {/* Right Side - Terms & Privacy Policy */}
-  <div className="flex space-x-4">
+  <div className="flex space-x-4 mr-5">
     <a
       href="/terms"
       className="text-base text-body-color dark:text-white hover:text-primary"
