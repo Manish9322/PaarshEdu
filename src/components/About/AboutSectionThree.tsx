@@ -7,16 +7,7 @@ const checkIcon = (
   </svg>
 );
 
-const AboutSectionOne = () => {
-  const List = ({ text }) => (
-    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
-        {checkIcon}
-      </span>
-      {text}
-    </p>
-  );
-
+const AboutSectionThree = () => {
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
@@ -24,32 +15,25 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title={<> Our <span className="text-blue-600"> Key Benefits </span> & Features for Growth.</>}
-                paragraph="Seamless course management with diverse content, flexible pricing, certification support, user-friendly interface, lifetime access, premium quality, and developer-friendly features."
+                title={<><span className="text-blue-600">Transforming Education</span> with Web Experiences.</>}
+                paragraph="Seamless course management with flexible pricing, user-friendly interface, and lifetime access."
                 mb="44px"
               />
 
-              <div
-                className="mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Enhanced learning" />
-                    <List text="Course management" />
-                    <List text="Lifetime Access" />
-                    <List text="Flexible Pricing" />
-                    <List text="Interactive Learning" />
-                  </div>
+              <div className="mb-12 max-w-[570px] lg:mb-0" data-wow-delay=".15s">
+                <p className="mb-5 text-lg text-body-color">
+                  <span className="text-blue-600 font-bold"> Paarsh Infotech Pvt. Ltd.</span> is the best Software development company in Nashik, India. It was established in 2018.
+                  We provide high-end web design & development solutions in Web & IT world. We do not just believe in increasing
+                  business. We trust in creating customer delight. We believe in making long-life relationships with our clients.
+                  We expect in developing a solid foundation for our company personally and professionally.
+                </p>
 
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Certificate Generation" />
-                    <List text="Detailed Documentation" />
-                    <List text="User -Friendly" />
-                    <List text="Mobile Compatibility" />
-                    <List text="Analytics and Support" />
-                  </div>
-                </div>
+                <p className="mb-5 text-lg text-body-color">
+                  We work for our clients and measure our success by their success. We not only provide services to our clients. But also we
+                  give internships to computer science students. Students can join our internship program as per their interests.
+                  We also provide an opportunity for our students to work on live projects. It will make them capable stand out
+                  in the interview of the company.
+                </p>
               </div>
             </div>
 
@@ -76,4 +60,4 @@ const AboutSectionOne = () => {
   );
 };
 
-export default AboutSectionOne;
+export default AboutSectionThree;
