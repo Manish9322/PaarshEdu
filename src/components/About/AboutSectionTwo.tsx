@@ -35,6 +35,7 @@ const AboutSectionTwo = () => {
               {/* Add Section Title */}
               <SectionTitle
                 title={<>Why Choose <span className="text-blue-600">Paarsh Edu. Learning</span></>}
+
                 paragraph="Empowering Minds, Transforming Futures: Your Journey to Knowledge Starts Here!"
                 mb="44px"
               />
@@ -73,7 +74,7 @@ const AboutSectionTwo = () => {
                 </div>
                 <div>
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    Career Guidance
+                    Certification Prep
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                     Boost career prospects with structured exam guidance.
@@ -81,7 +82,7 @@ const AboutSectionTwo = () => {
                 </div>
                 <div>
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    Expert-Led Preparation
+                    Certification Prep
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                     Achieve credentials with expert-led preparation courses.

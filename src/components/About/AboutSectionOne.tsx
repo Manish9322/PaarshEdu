@@ -24,7 +24,7 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title={<> Our <span className="text-blue-600"> Key Benefits </span> & Features for Growth.</>}
+                title="Our Key Benefits & Features for Growth"
                 paragraph="Seamless course management with diverse content, flexible pricing, certification support, user-friendly interface, lifetime access, premium quality, and developer-friendly features."
                 mb="44px"
               />
@@ -38,16 +38,12 @@ const AboutSectionOne = () => {
                     <List text="Enhanced learning" />
                     <List text="Course management" />
                     <List text="Lifetime Access" />
-                    <List text="Flexible Pricing" />
-                    <List text="Interactive Learning" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Certificate Generation" />
                     <List text="Detailed Documentation" />
-                    <List text="User -Friendly" />
-                    <List text="Mobile Compatibility" />
-                    <List text="Analytics and Support" />
+                    <List text="User-Friendly" />
                   </div>
                 </div>
               </div>
