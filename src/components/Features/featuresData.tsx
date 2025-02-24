@@ -17,7 +17,7 @@ const featuresData: Feature[] = [
       "Master Core Java from fundamentals to advanced concepts and build robust, efficient, and scalable applications with confidence and expertise!",
   },
   {
-    id: 2,
+    id: 1,
     icon: (
       <svg width="40" height="41" viewBox="0 0 448 512" className="fill-current">
         <path 
@@ -31,7 +31,7 @@ const featuresData: Feature[] = [
       "Learn JavaScript from the ground up and create high-performance, dynamic, and interactive web applications with confidence and efficiency!",
   },
   {
-    id: 3,
+    id: 1,
     icon: (
       <svg width="40" height="40" viewBox="0 0 128 128" className="fill-current">
         <path
@@ -46,7 +46,7 @@ const featuresData: Feature[] = [
       "Build high-performance, scalable, and dynamic web applications with Next.js and React using real-world projects, cutting-edge technologies, and modern best practices!",
   },
   {
-    id: 4,
+    id: 1,
     icon: (
       <svg width="40" height="40" viewBox="0 0 448 512" className="fill-current">
         <path
@@ -61,7 +61,7 @@ const featuresData: Feature[] = [
       "Explore the world of Python—learn its powerful features, automate complex tasks, develop dynamic applications, and solve real-world challenges with confidence!",
   },
   {
-    id: 5,
+    id: 1,
     icon: (
       <svg width="40" height="40" viewBox="0 0 640 512" className="fill-current">
         <path
@@ -75,7 +75,7 @@ const featuresData: Feature[] = [
       "Master Core PHP from the ground up — build dynamic websites, handle databases, and create robust web applications with real-world projects and best practices!",
   },
   {
-    id: 6,
+    id: 1,
     icon: (
       <svg width="40" height="40" viewBox="0 0 448 512" className="fill-current">
         <path

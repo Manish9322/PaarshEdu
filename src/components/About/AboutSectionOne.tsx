@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Our Benefits"
-                paragraph="Empower your learning journey with our comprehensive educational benefits. We offer expert guidance, innovative resources, and personalized support to help you achieve excellence."
+                title="Our Key Benefits & Features for Growth"
+                paragraph="Seamless course management with diverse content, flexible pricing, certification support, user-friendly interface, lifetime access, premium quality, and developer-friendly features."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Deliver quality education to your learners" />
-                    <List text="Provide video, documents, or external links" />
-                    <List text="Manage the courses our learners study" />
+                    <List text="Enhanced learning" />
+                    <List text="Course management" />
+                    <List text="Lifetime Access" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Automatically add completion certificates" />
-                    <List text="Customize our flexible pricing plans" />
-                    <List text="friendly enviroment" />
+                    <List text="Certificate Generation" />
+                    <List text="Detailed Documentation" />
+                    <List text="User-Friendly" />
                   </div>
                 </div>
               </div>
