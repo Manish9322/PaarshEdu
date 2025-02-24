@@ -12,6 +12,7 @@ import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
+import CoursesPage from "@/components/Courses/Courses";
 
 export const metadata: Metadata = {
   title: "Paarsh Edu : Solution for Better Learning.",
@@ -26,6 +27,7 @@ export default function Home() {
       <Hero />
       {/* <Features /> */}
       <TopCources />
+      <CoursesPage />
       {/* <Courses/> */}
       <Video />
       <Brands />

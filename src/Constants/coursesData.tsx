@@ -37,7 +37,7 @@ export const courseList: CourseDetails[] = [
     language: "English / Hindi / Marathi",
     certification: 'YES',
     aboutCourse:
-      "In today's fast-paced digital landscape, creating dynamic and high-performance web applications is essential. This comprehensive course on Next.js and React is designed for developers who want to leverage these powerful technologies to build modern web applications efficiently.",
+      "In today's fast-paced digital landscape, creating dynamic and high-performance web applications is essential. This comprehensive course on Next.js and React is designed for developers who want to leverage these powerful technologies to build modern web applications efficiently.In today's fast-paced digital landscape, creating dynamic and high-performance web applications is essential. This comprehensive course on Next.js and React is designed for developers who want to leverage these powerful technologies to build modern web applications efficiently.In today's fast-paced digital landscape, creating dynamic and high-performance web applications is essential. This comprehensive course on Next.js and React is designed for developers who want to leverage these powerful technologies to build modern web applications efficiently.",
     whatYouWillLearn: [
       "Fundamentals of React and its integration with Next.js",
       "Setting up a Next.js project and understanding its file structure",
