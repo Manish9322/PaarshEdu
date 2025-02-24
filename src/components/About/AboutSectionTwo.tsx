@@ -5,6 +5,11 @@ const AboutSectionTwo = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
+        
+        <h1 className="text-center mb-5 text-5xl font-bold leading-tight text-black dark:text-white">
+  <span className="text-blue-500">Strategies</span>  for Student
+</h1>
+
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2 float-end">
             <div

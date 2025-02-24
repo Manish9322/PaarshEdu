@@ -5,28 +5,49 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
+<<<<<<< HEAD
     name: "Harshal Mutadak",
     designation: "Software Engineering Intern",
     content:
       "This platform made learning so easy! The hands-on approach helped me understand concepts better and apply them effectively.",
+=======
+    name: "Dhiraj Bhirud",
+    designation: "Founder @Artify Inc.",
+    content:
+      " Paarsh infotech , it gives me such an good experience and helps me to improve my knowledge, It gives me opportunity to take decision by myself.",
+>>>>>>> c792d54a6b162f74dccd79416755b9c7097b0336
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
+<<<<<<< HEAD
     name: "Ashwini Bhavare",
     designation: "Junior Web Developer",
     content:
       "A great place to enhance skills! The structured courses and real-world projects helped me gain confidence in my abilities.",
+=======
+    name: "Mangesh Dound",
+    designation: "Founder @UIdeck",
+    content:
+      "I have never worked a part-time job with such intensity and dedication before.My internship was such a valuable experience and I learned so much!I am very grateful for the opportunity",
+>>>>>>> c792d54a6b162f74dccd79416755b9c7097b0336
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
+<<<<<<< HEAD
     name: "Vrutik Patil",
     designation: "Graduate Trainee",
     content:
       "The best learning experience! The well-organized content and practical exercises made learning enjoyable and effective.",
+=======
+    name: "Dharmi Barot",
+    designation: "Founder @Lineicons",
+    content:
+      "A positive company culture that values innovation, teamwork, and open communication can help employees feel engaged and motivated and The work environment is also better",
+>>>>>>> c792d54a6b162f74dccd79416755b9c7097b0336
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },

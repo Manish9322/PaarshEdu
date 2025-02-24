@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
+      <footer  className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
@@ -27,8 +27,13 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+<<<<<<< HEAD
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer lobortis.
+=======
+                  Paarsh Infotech Pvt Ltd provides more than website design and
+                  Software development.
+>>>>>>> c792d54a6b162f74dccd79416755b9c7097b0336
                 </p>
                 <div className="flex items-center">
                   <a
@@ -73,6 +78,33 @@ const Footer = () => {
                       />
                     </svg>
                   </a>
+<<<<<<< HEAD
+=======
+
+                  <a
+                    href="https://www.instagram.com/paarsh_infotech/"
+                    aria-label="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M7 2C4.2 2 2 4.2 2 7V17C2 19.8 4.2 22 7 22H17C19.8 22 22 19.8 22 17V7C22 4.2 19.8 2 17 2H7ZM4 7C4 5.3 5.3 4 7 4H17C18.7 4 20 5.3 20 7V17C20 18.7 18.7 20 17 20H7C5.3 20 4 18.7 4 17V7ZM12 7C9.2 7 7 9.2 7 12C7 14.8 9.2 17 12 17C14.8 17 17 14.8 17 12C17 9.2 14.8 7 12 7ZM9 12C9 10.3 10.3 9 12 9C13.7 9 15 10.3 15 12C15 13.7 13.7 15 12 15C10.3 15 9 13.7 9 12ZM17.5 6.5C17.5 6.8 17.3 7 17 7C16.7 7 16.5 6.8 16.5 6.5C16.5 6.2 16.7 6 17 6C17.3 6 17.5 6.2 17.5 6.5Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+
+>>>>>>> c792d54a6b162f74dccd79416755b9c7097b0336
                   <a
                     href="/"
                     aria-label="social-link"
@@ -146,7 +178,11 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+<<<<<<< HEAD
                   Terms
+=======
+                  Courses
+>>>>>>> c792d54a6b162f74dccd79416755b9c7097b0336
                 </h2>
                 <ul>
                   <li>
@@ -154,7 +190,11 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
+<<<<<<< HEAD
                       TOS
+=======
+                      FullStack Java Development
+>>>>>>> c792d54a6b162f74dccd79416755b9c7097b0336
                     </Link>
                   </li>
                   <li>
@@ -162,7 +202,11 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
+<<<<<<< HEAD
                       Privacy Policy
+=======
+                      FullStack Python Devlopment
+>>>>>>> c792d54a6b162f74dccd79416755b9c7097b0336
                     </Link>
                   </li>
                   <li>
@@ -170,7 +214,27 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
+<<<<<<< HEAD
                       Refund Policy
+=======
+                      Mean Stack
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      API Development
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Android App Development
+>>>>>>> c792d54a6b162f74dccd79416755b9c7097b0336
                     </Link>
                   </li>
                 </ul>
@@ -184,12 +248,49 @@ const Footer = () => {
                 </h2>
                 <ul>
                   <li>
+<<<<<<< HEAD
                     <Link
                       href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Open Support Ticket
                     </Link>
+=======
+                    <div className="mb-4 flex items-center space-x-3">
+                      {/* Mail Icon */}
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="text-gray-500"
+                      >
+                        <path
+                          d="M3 4H21C22.1 4 23 4.9 23 6V18C23 19.1 22.1 20 21 20H3C1.9 20 1 19.1 1 18V6C1 4.9 1.9 4 3 4Z"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M3 6L12 13L21 6"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+
+                      {/* Email Address */}
+                      <a
+                        href="mailto:your-email@example.com"
+                        className="text-body-color transition duration-300 hover:text-blue-700"
+                      >
+                        info@paarshinfotech.com
+                      </a>
+                    </div>
+>>>>>>> c792d54a6b162f74dccd79416755b9c7097b0336
                   </li>
                   <li>
                     <Link
@@ -200,12 +301,35 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
+<<<<<<< HEAD
                     <Link
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       About
                     </Link>
+=======
+                    <div className="mb-4 flex space-x-2">
+                      {/* address */}
+                      <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 24 24"
+                        fill="gray"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M12 2C8.1 2 5 5.1 5 9C5 13.2 9.9 19.3 11.6 21.2C11.8 21.4 12.2 21.4 12.4 21.2C14.1 19.3 19 13.2 19 9C19 5.1 15.9 2 12 2ZM12 11C10.3 11 9 9.7 9 8C9 6.3 10.3 5 12 5C13.7 5 15 6.3 15 8C15 9.7 13.7 11 12 11Z" />
+                      </svg>
+
+                      {/* Address */}
+                      <a
+                        href="mailto:your-email@example.com"
+                        className="text-body-color transition duration-300 hover:text-blue-700"
+                      >
+                        Paarsh Infotech Pvt Ltd. Mumbai Naka, Nashik - 422001
+                      </a>
+                    </div>
+>>>>>>> c792d54a6b162f74dccd79416755b9c7097b0336
                   </li>
                 </ul>
               </div>
@@ -213,6 +337,7 @@ const Footer = () => {
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+<<<<<<< HEAD
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
               Template by{" "}
@@ -235,6 +360,30 @@ const Footer = () => {
               </a>
             </p>
           </div>
+=======
+          <div className="py-8 flex justify-between items-center">
+  {/* Left Side - Copyright */}
+  <p className="text-base text-body-color dark:text-white">
+    &copy; 2024-25 Paarsh Edu. All rights reserved.
+  </p>
+  
+  {/* Right Side - Terms & Privacy Policy */}
+  <div className="flex space-x-4 mr-5">
+    <a
+      href="/terms"
+      className="text-base text-body-color dark:text-white hover:text-primary"
+    >
+      Terms & Conditions
+    </a>
+    <a
+      href="/privacy"
+      className="text-base text-body-color dark:text-white hover:text-primary"
+    >
+      Privacy Policy
+    </a>
+  </div>
+</div>
+>>>>>>> c792d54a6b162f74dccd79416755b9c7097b0336
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
           <svg

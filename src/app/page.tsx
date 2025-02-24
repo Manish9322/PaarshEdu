@@ -11,6 +11,7 @@ import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
+import CoursesPage from "@/components/Courses/Courses";
 
 import StrategiesSection from "@/components/Strategies";
 
@@ -25,7 +26,13 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+<<<<<<< HEAD
       <Features />
+=======
+      {/* <Features /> */}
+      <TopCources />
+      <CoursesPage />
+>>>>>>> c792d54a6b162f74dccd79416755b9c7097b0336
       {/* <Courses/> */}
       <Video />
       <Brands />
